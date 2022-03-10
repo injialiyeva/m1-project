@@ -65,8 +65,8 @@
 }
 .secondendright{
     display: flex;
-    margin-left: 9.17vw;
-    margin-top: 4.861vw;
+    margin-left: 9.167vw;
+    margin-top: 11.389vw;
 }
 .secondbox1{
     width: 10.417vw;
@@ -135,10 +135,8 @@
         left: 26.933vw;
     }
     .secondendright{
-        display: flex;
-        flex-wrap: wrap;
         width: 54.992vw;
-        margin-top: 4.861vw;
+        margin-top: 12.189vw;
     }
     .secondbox1{
         width: 22.93vw;
