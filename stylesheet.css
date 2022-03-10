@@ -94,20 +94,21 @@ body {
   height: 11.111vw /*160px*/;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1279px) {
-  /*Tablet*/
+/*TABLET */
 
-  #third {
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  /* body {
     width: 100%;
-    margin: 17.222vw 5.903vw 6.307vw 5.833vw /*143.63px 49.23px 52.6px 48.65px*/;
+    margin: 17.222vw 5.903vw 6.307vw 5.833vw /*143.63px 49.23px 52.6px 48.65px
   }
+  */
 
   #third-block-h {
     width: 62.848vw /*524.15px*/;
     height: 6.458vw /*53.86px*/;
     font-size: 3.837vw /*32px*/;
     line-height: 101.38%;
-    margin-top: 3854.152vw /*143.63px*/;
+    margin-top: 17.222vw /*143.63px*/;
     margin-bottom: 6.597vw /*55.02px*/;
     margin-right: 28.749vw /*239.77px*/;
     margin-left: 8.403vw /*70.08px*/;
@@ -182,8 +183,9 @@ body {
   }
 }
 
+/*MOBILE*/
+
 @media only screen and (min-width: 320px) and (max-width: 991px) {
-  /*Mobile*/
   #third-block-h {
     width: 112.453vw /*421.7px*/;
     height: 11.557vw /*43.34px*/;
