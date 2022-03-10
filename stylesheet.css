@@ -103,6 +103,11 @@ body {
   }
   */
 
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   #third-block-h {
     width: 62.848vw /*524.15px*/;
     height: 6.458vw /*53.86px*/;
@@ -186,6 +191,11 @@ body {
 /*MOBILE*/
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   #third-block-h {
     width: 112.453vw /*421.7px*/;
     height: 11.557vw /*43.34px*/;
@@ -212,6 +222,9 @@ body {
     width: 49.579vw /*185.92px*/;
     height: 40.757vw /*152.84px*/;
     margin: 9.509vw 25.088vw 6.443vw 25.333vw /*35.66px 94.08px 24.16px 95px*/;
+    box-shadow: 0.124vw 0.124vw 1.864vw /*0.465972px 0.465972px 6.98958px*/
+      rgba(0, 0, 0, 0.25);
+    border-radius: 3.728vw /*13.9792px*/;
   }
 
   .third-p-names {
