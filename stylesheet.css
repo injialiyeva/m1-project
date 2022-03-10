@@ -1,10 +1,18 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(./css/orxan.css);
+@import url(./css/orxan2.css);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 #fourth{
     background-color: #EFEFEF;
     padding: 6.319vw 22.986vw 7.708vw 8.472vw;
@@ -188,3 +196,185 @@
     display: flex;
 }
 }
+
+#fifth {
+    height: auto;
+    width: 100%;
+    background-color: #9DC9C8;
+    padding-top: 12.431vw;
+    padding-left: 8.472vw;
+    padding-right: 28.472vw;
+    padding-bottom: 12.847vw;
+}
+
+.ilk {
+    display: block;
+    width: 63vw;
+    height: 4.583vw;
+    font-size: 3.8vw;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    margin-right: 0;
+
+}
+
+.iki {
+    display: block;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 12vw;
+    height: 2.222vw;
+    margin-top: 3.75vw;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.uc {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.5vw;
+    font-style: normal;
+    font-weight: 400;
+    width: 33vw;
+    height: 10.764vw;
+}
+
+.dord {
+    display: flex;
+}
+
+.bb {
+    margin-left: 4.861vw;
+}
+
+.aa .pa {
+    width: 20.5vw;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    height: 2.222vw;
+}
+
+.aa .pb {
+    margin-top: 0.625vw;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    width: 20.5vw;
+    height: 4.861vw;
+
+
+}
+
+.bb .pa {
+    height: 2.222vw;
+    width: 22vw;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bb .pb {
+    height: 4.861vw;
+    width: 20vw;
+    margin-top: 0.625vw;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width:992px) and (max-width:1279px) {
+
+    #fifth {
+        padding-top: 10.433vw;
+        padding-left: 8.465vw;
+        padding-right: 28.417vw;
+        padding-bottom: 10.801vw;
+    }
+}
+
+@media (min-width:320px) and (max-width:991px) {
+
+
+
+    #fifth {
+        padding-top: 19.375vw;
+        padding-left: 9.067vw;
+        padding-right: 5.600vw;
+        padding-bottom: 19.688vw;
+    }
+
+    .ilk {
+        width: 59.733vw;
+        height: 19.688vw;
+
+    }
+
+    .ilk h5 {
+        font-size: 6.933vw;
+
+    }
+
+    .iki {
+        font-size: 3.200vw;
+        width: 21.067vw;
+        height: 4.688vw;
+        margin-top: 6.978vw;
+    }
+
+    .uc {
+        font-size: 9.867vw;
+        width: 59.733vw;
+        height: 22.813vw;
+    }
+
+
+    .bb {
+        margin-left: 8.267vw;
+    }
+
+    .aa .pa {
+        width: 36.533vw;
+        font-size: 3.200vw;
+        height: 4.688vw;
+    }
+
+    .aa .pb {
+        margin-top: 1.469vw;
+        font-size: 2.667vw;
+        width: 36.800vw;
+        height: 14.688vw;
+
+
+    }
+
+    .bb .pa {
+        height: 4.375vw;
+        width: 40.267vw;
+        font-size: 3.200vw;
+    }
+
+    .bb .pb {
+        height: 11.875vw;
+        width: 37.333vw;
+        margin-top: 1.563vw;
+        font-size: 2.667vw;
+    }
+}
+
