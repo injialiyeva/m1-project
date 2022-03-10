@@ -4,7 +4,7 @@
 .secondleft, .secondendright{
     font-family: Roboto;
 }
-#seven .secondh2{
+#second .secondh2{
     width: 25.347vw;
     height: 6.458vw;
     font-size: 3.819vw;
@@ -82,7 +82,7 @@
     width: 10.417vw;
     height: 5.4861vw;
 }
-#seven .secondend h3{
+#second .secondend h3{
     font-weight: bold;
     font-size: 1.7361vw;
     margin-bottom: 0.0694vw;
@@ -90,7 +90,7 @@
     width: 10.417vw;
     height: 2.7083vw;
 }
-#seven .secondend p{
+#second .secondend p{
     font-size: 1.25vw;
     line-height: 130%;
 }
@@ -106,7 +106,7 @@
     .secondend .secondendleft img, .secondend .secondendleft .secondendellipse{
         display: none;
     }
-    #seven .secondh2{
+    #second .secondh2{
         width: 45.355vw;
         height: 11.557vw;
         font-size: 6.933vw;
@@ -155,14 +155,14 @@
         margin-top: 9.067vw;
         margin-left: 0 ;
     }
-    #seven .secondend h3{
+    #second .secondend h3{
         font-weight: bold;
         font-size: 3.2vw;
         margin-bottom: 0.2213vw;
         width: 18.64vw;
         height: 4.8453vw;
     }
-    #seven .secondend p{
+    #second .secondend p{
         font-size: 2.7vw;
     }
 }
