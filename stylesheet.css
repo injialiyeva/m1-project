@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url(./css/orxan.css);
 @import url(./css/orxan2.css);
 
@@ -631,4 +632,119 @@ body {
     margin-top: 1.563vw;
     font-size: 2.667vw;
   }
+}
+
+/*
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+*/
+
+/*
+@media only screen and (min-width:320px) and (max-width:991px) {}
+*/
+#footer {
+    padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
+    background-color: #000;
+    color: white;
+}
+
+#footer .dark-footer {
+    display: flex;
+}
+
+#footer .col-1 img {
+    width: 7.9861vw;
+    height: 4.72vw;
+}
+
+#footer .col-1 .sosial {
+    margin-top: 2.083vw;
+}
+
+#footer .col-1 .sosial .insta {
+    width: 2.2916vw;
+    height: 2.2916vw;
+    margin-right: 1.25vw;
+}
+
+#footer .col-1 .sosial .fb {
+    width: 2.22vw;
+    height: 2.22vw;
+    margin-right: 1.4583vw;
+}
+
+#footer .col-1 .sosial .wk {
+    width: 2.4305vw;
+    height: 2.4305vw;
+    margin-right: 1.72vw;
+}
+
+#footer .col-1 .sosial .wp {
+    width: 2.361vw;
+    height: 2.361vw;
+    margin-right: 0;
+}
+
+#footer .end-text {
+    height: 1.609027vw;
+    font-size: 1.25vw;
+    margin-top: 5.872vw;
+}
+
+#footer .col-2 {
+    margin-left: 45.5vw;
+    display: flex;
+}
+
+#footer .col-2 .contact-logos .phone {
+    width: 1.875vw;
+    height: 1.875vw;
+    margin-bottom: 1.39vw;
+    margin-right: 1.527vw;
+    display: block;
+}
+
+#footer .col-2 .contact-logos .mail {
+    width: 1.875vw;
+    height: 1.25vw;
+    margin-right: 1.527vw;
+    display: block;
+}
+
+#footer .col-2 .contact .phone-pic {
+    margin-bottom: 0.2083vw;
+}
+
+#footer .col-2 .contact p {
+    height: 2.77vw;
+    font-size: 1.7361vw;
+}
+
+@media only screen and (min-width:992px) and (max-width:1279px) {
+    /*.container {
+        
+        width: 100%;
+        height: auto;
+    }*/
+}
+
+@media only screen and (min-width:320px) and ( max-width:991px) {
+    /*.container {
+        width: 100%;
+        height: auto;
+    }*/
+    #footer .dark-footer {  
+        flex-direction: column;
+    }
+    #footer .dark-footer .col-2 {
+        margin-left: 0;
+        margin-top: 3.472vw;
+        margin-bottom: 3.472vw;
+    }
+    #footer .col-2 .contact-logos .phone {
+        margin-bottom: 1.5vw;
+    }
 }
