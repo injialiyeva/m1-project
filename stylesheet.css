@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url(./css/orxan.css);
 @import url(./css/orxan2.css);
 
@@ -20,300 +20,277 @@ body {
 }
 
 /* rahid css */
-#second{
+#second {
   width: 100%;
   height: auto;
 }
-.second-head{
+.second-head {
   width: 46.319vw;
   height: 6.458vw;
   margin-top: 11.25vw;
   margin-left: 8.403vw;
 }
-.second-head>h1{
-  font-family: 'Roboto Slab';
+.second-head > h1 {
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: bold;
   font-size: 3.819vw;
-  }
-.second-colones{
+}
+.second-colones {
   display: flex;
   /* justify-content: space-around; */
 }
-.second-colone{
-
+.second-colone {
   height: 2.708vw;
   margin-top: 6.181vw;
   margin-left: 8.472vw;
 }
-#test-1-1{
+#test-1-1 {
   width: 10.417vw;
   margin-right: 8.472vw;
 }
-#test-1-2{
+#test-1-2 {
   width: 14.861vw;
   margin-right: 7.847vw;
 }
-#test-1-3{
+#test-1-3 {
   width: 10.417vw;
   margin-right: 23.889vw;
 }
-.second-colones h3{
-  font-family: 'Roboto';
+.second-colones h3 {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 1.736vw;
 }
-.one-first-h{
-  color: #1E4681;
-  }
-.one-first-h-0{
+.one-first-h {
+  color: #1e4681;
+}
+.one-first-h-0 {
   width: 10.417vw;
   height: 2.708vw;
 }
-.one-first-h-1{
+.one-first-h-1 {
   width: 14.861vw;
   height: 2.708vw;
 }
-.one-first-h-2{
+.one-first-h-2 {
   width: 10.417vw;
   height: 2.708vw;
 }
-.one-first-p{
+.one-first-p {
   width: 15.5vw;
   height: 2.708vw;
-
-
 }
-.one-second-p{
+.one-second-p {
   width: 18.819vw;
   height: 7.569vw;
-
-
 }
-.one-third-p{
+.one-third-p {
   width: 17.014vw;
   height: 2.708vw;
-
-
 }
-.second-colones p{
-  font-family: 'Roboto';
+.second-colones p {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1.25vw;
-
 }
-.second-head-2{
+.second-head-2 {
   width: 46.319vw;
   height: 6.458vw;
   margin-top: 12.361vw;
   margin-left: 8.403vw;
   margin-bottom: 1.458vw;
-
 }
-.second-head-2>h1{
-  font-family: 'Roboto Slab';
+.second-head-2 > h1 {
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: bold;
   font-size: 3.819vw;
-  }
-.second-list{
+}
+.second-list {
   width: 45.972vw;
   height: 25.972vw;
   margin-left: 9.58vw;
-
 }
-.second-list ul{
-  font-family: 'Roboto';
+.second-list ul {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 1.667vw;
   margin-right: 20px;
 }
 
-@media only screen and (min-width:992px) and (max-width:1279px){
-  body{
-      width: 100%;
-      height: auto;
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  body {
+    width: 100%;
+    height: auto;
   }
-  .second-head{
-      width: 46.318vw;
-      height: 6.458vw;
-      margin-left: 8.403vw;
-      margin-top: 11.251vw;
+  .second-head {
+    width: 46.318vw;
+    height: 6.458vw;
+    margin-left: 8.403vw;
+    margin-top: 11.251vw;
   }
-  .second-head>h1{
-      font-family: 'Roboto Slab';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 3.837vw;
-      }
-  .second-colone{
-
-          height: 4.676vw;
-
-
-          }
-   #test-1-1{
-              width: 10.417vw;
-
-          }
-  #test-1-2{
-              width: 20.623vw;
-          }
-  #test-1-3{
-              width: 17.014vw;
-          }
-  .second-colones h3{
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 1.799vw;
-          }
-   .one-first-h-0{
-             width: 10.417vw;
-             height: 2.709vw;
-              }
-   .one-first-h-1{
-             width: 14.861vw;
-             height: 2.709vw;
-          }
-   .one-first-h-2{
-             width: 10.417vw;
-             height: 2.709vw;
-          }
-  .second-colones p{
-              font-family: 'Roboto';
-              font-style: normal;
-              font-weight: normal;
-              font-size: 1.319vw;
-
-          }
-  .one-first-p{
-      width: 18.345vw ;
-      height: 2.638vw ;
-          }
-  .one-second-p{
-      width: 18.819vw;
-      height: 7.569vw;
-    }
-  .one-third-p{
-      width: 17.014vw;
-      height: 2.708vw;
+  .second-head > h1 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.837vw;
   }
-  .second-head-2{
-      width: 46.318vw;
-      height: 6.458vw;
-      margin-top: 12.416vw;
-      margin-left: 8.403vw;
-      margin-bottom: 1.458vw;
-
+  .second-colone {
+    height: 4.676vw;
   }
-  .second-list{
+  #test-1-1 {
+    width: 10.417vw;
+  }
+  #test-1-2 {
+    width: 20.623vw;
+  }
+  #test-1-3 {
+    width: 17.014vw;
+  }
+  .second-colones h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.799vw;
+  }
+  .one-first-h-0 {
+    width: 10.417vw;
+    height: 2.709vw;
+  }
+  .one-first-h-1 {
+    width: 14.861vw;
+    height: 2.709vw;
+  }
+  .one-first-h-2 {
+    width: 10.417vw;
+    height: 2.709vw;
+  }
+  .second-colones p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.319vw;
+  }
+  .one-first-p {
+    width: 18.345vw;
+    height: 2.638vw;
+  }
+  .one-second-p {
+    width: 18.819vw;
+    height: 7.569vw;
+  }
+  .one-third-p {
+    width: 17.014vw;
+    height: 2.708vw;
+  }
+  .second-head-2 {
+    width: 46.318vw;
+    height: 6.458vw;
+    margin-top: 12.416vw;
+    margin-left: 8.403vw;
+    margin-bottom: 1.458vw;
+  }
+  .second-list {
     margin-left: 11vw;
   }
 }
-@media only screen and (min-width:320px) and (max-width:991px){
-.second-head{
-  width: 82.88vw;
-  height: 11.557vw;
-}
-  .second-head>h1{
-      font-family: 'Roboto Slab';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 6.933vw;
-      }
-  .second-colones{
-          display: flex;
-          flex-direction: column;
-          /* margin-top: 4.443vw; */
-           }
-  .one-first-h-0{
-      /* margin-top: 4.443vw; */
-      /* margin-left: 9.333vw; */
-      width: 18.64vw;
-      height: 4.845vw;
-}
-  .one-first-h-1{
-   margin-top: 7.733vw;
-   width: 26.592vw;
-   height: 4.845vw;
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .second-head {
+    width: 82.88vw;
+    height: 11.557vw;
   }
-  .one-first-h-2{
-      margin-top: 10vw ;
-  }
-  .second-colones h3{
-   font-family: 'Roboto';
+  .second-head > h1 {
+    font-family: "Roboto Slab";
     font-style: normal;
-   font-weight: bold;
-   font-size: 3.2vw;
-      }
-  .second-colones p{
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: normal;
-          font-size: 2.667vw;
-
-      }
-      .one-first-p{
-          width: 48vw;
-          height: 12.8vw;
-
-      }
-      .one-second-p{
-          width: 44vw;
-          height: 13.6vw;
-          /* margin-top: 0.001vw; */
-      }
-      .one-third-p{
-          width: 42.4vw;
-          height: 8.267vw;
-          margin-top: 2vw;
-      }
-      .second-head-2{
-          margin-top: 25vw;
-          margin-bottom: 2.576vw;
-      }
-      .second-list{
-          margin-top: 7vw;
-          width: 79.733vw;
-          height: 46.4vw;
-          line-height: 110%;
-          margin-left: 11.733vw;
-      }
-      #test-1-1{
-          width: 18.64vw;
-          height: 4.845vw;
-      }
-      #test-1-2{
-          width: 44vw;
-          height: 13.6vw;
-      }
-      #test-1-3{
-          width: 42.4vw;
-          height: 8.267vw;
-      }
-.second-head-2>h1{
-  font-size: 6.933vw;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 700;
-  line-height: 101.38%;
+    font-weight: bold;
+    font-size: 6.933vw;
+  }
+  .second-colones {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 4.443vw; */
+  }
+  .one-first-h-0 {
+    /* margin-top: 4.443vw; */
+    /* margin-left: 9.333vw; */
+    width: 18.64vw;
+    height: 4.845vw;
+  }
+  .one-first-h-1 {
+    margin-top: 7.733vw;
+    width: 26.592vw;
+    height: 4.845vw;
+  }
+  .one-first-h-2 {
+    margin-top: 10vw;
+  }
+  .second-colones h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2vw;
+  }
+  .second-colones p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.667vw;
+  }
+  .one-first-p {
+    width: 48vw;
+    height: 12.8vw;
+  }
+  .one-second-p {
+    width: 44vw;
+    height: 13.6vw;
+    /* margin-top: 0.001vw; */
+  }
+  .one-third-p {
+    width: 42.4vw;
+    height: 8.267vw;
+    margin-top: 2vw;
+  }
+  .second-head-2 {
+    margin-top: 25vw;
+    margin-bottom: 2.576vw;
+  }
+  .second-list {
+    margin-top: 7vw;
+    width: 79.733vw;
+    height: 46.4vw;
+    line-height: 110%;
+    margin-left: 11.733vw;
+  }
+  #test-1-1 {
+    width: 18.64vw;
+    height: 4.845vw;
+  }
+  #test-1-2 {
+    width: 44vw;
+    height: 13.6vw;
+  }
+  #test-1-3 {
+    width: 42.4vw;
+    height: 8.267vw;
+  }
+  .second-head-2 > h1 {
+    font-size: 6.933vw;
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.38%;
+  }
+  .second-list > ul {
+    font-size: 3.2vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  }
 }
-.second-list>ul{
-  font-size: 3.2vw;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-}
-
-
-
-}
-
-
 
 /* #third {
   margin: 248px 85px 121px 84px;
@@ -943,105 +920,105 @@ body {
 @media only screen and (min-width:320px) and (max-width:991px) {}
 */
 #footer {
-    padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
-    background-color: #000;
-    color: white;
+  padding: 3.472vw 10.138vw 1.5972vw 8.472vw;
+  background-color: #000;
+  color: white;
 }
 
 #footer .dark-footer {
-    display: flex;
+  display: flex;
 }
 
 #footer .col-1 img {
-    width: 7.9861vw;
-    height: 4.72vw;
+  width: 7.9861vw;
+  height: 4.72vw;
 }
 
 #footer .col-1 .sosial {
-    margin-top: 2.083vw;
+  margin-top: 2.083vw;
 }
 
 #footer .col-1 .sosial .insta {
-    width: 2.2916vw;
-    height: 2.2916vw;
-    margin-right: 1.25vw;
+  width: 2.2916vw;
+  height: 2.2916vw;
+  margin-right: 1.25vw;
 }
 
 #footer .col-1 .sosial .fb {
-    width: 2.22vw;
-    height: 2.22vw;
-    margin-right: 1.4583vw;
+  width: 2.22vw;
+  height: 2.22vw;
+  margin-right: 1.4583vw;
 }
 
 #footer .col-1 .sosial .wk {
-    width: 2.4305vw;
-    height: 2.4305vw;
-    margin-right: 1.72vw;
+  width: 2.4305vw;
+  height: 2.4305vw;
+  margin-right: 1.72vw;
 }
 
 #footer .col-1 .sosial .wp {
-    width: 2.361vw;
-    height: 2.361vw;
-    margin-right: 0;
+  width: 2.361vw;
+  height: 2.361vw;
+  margin-right: 0;
 }
 
 #footer .end-text {
-    height: 1.609027vw;
-    font-size: 1.25vw;
-    margin-top: 5.872vw;
+  height: 1.609027vw;
+  font-size: 1.25vw;
+  margin-top: 5.872vw;
 }
 
 #footer .col-2 {
-    margin-left: 45.5vw;
-    display: flex;
+  margin-left: 45.5vw;
+  display: flex;
 }
 
 #footer .col-2 .contact-logos .phone {
-    width: 1.875vw;
-    height: 1.875vw;
-    margin-bottom: 1.39vw;
-    margin-right: 1.527vw;
-    display: block;
+  width: 1.875vw;
+  height: 1.875vw;
+  margin-bottom: 1.39vw;
+  margin-right: 1.527vw;
+  display: block;
 }
 
 #footer .col-2 .contact-logos .mail {
-    width: 1.875vw;
-    height: 1.25vw;
-    margin-right: 1.527vw;
-    display: block;
+  width: 1.875vw;
+  height: 1.25vw;
+  margin-right: 1.527vw;
+  display: block;
 }
 
 #footer .col-2 .contact .phone-pic {
-    margin-bottom: 0.2083vw;
+  margin-bottom: 0.2083vw;
 }
 
 #footer .col-2 .contact p {
-    height: 2.77vw;
-    font-size: 1.7361vw;
+  height: 2.77vw;
+  font-size: 1.7361vw;
 }
 
-@media only screen and (min-width:992px) and (max-width:1279px) {
-    /*.container {
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+  /*.container {
         
         width: 100%;
         height: auto;
     }*/
 }
 
-@media only screen and (min-width:320px) and ( max-width:991px) {
-    /*.container {
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  /*.container {
         width: 100%;
         height: auto;
     }*/
-    #footer .dark-footer {  
-        flex-direction: column;
-    }
-    #footer .dark-footer .col-2 {
-        margin-left: 0;
-        margin-top: 3.472vw;
-        margin-bottom: 3.472vw;
-    }
-    #footer .col-2 .contact-logos .phone {
-        margin-bottom: 1.5vw;
-    }
+  #footer .dark-footer {
+    flex-direction: column;
+  }
+  #footer .dark-footer .col-2 {
+    margin-left: 0;
+    margin-top: 3.472vw;
+    margin-bottom: 3.472vw;
+  }
+  #footer .col-2 .contact-logos .phone {
+    margin-bottom: 1.5vw;
+  }
 }
