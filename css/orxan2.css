@@ -1,22 +1,22 @@
-
-.secondh2{
-    font-family: Roboto Slab;
+.secondh2 {
+  font-family: Roboto Slab;
 }
-.secondleft, .secondendright{
-    font-family: Roboto;
+.secondleft,
+.secondendright {
+  font-family: Roboto;
 }
-#seventh .secondh2{
-    width: 25.347vw;
-    height: 6.458vw;
-    font-size: 3.819vw;
-    font-weight: bolder;
-    margin-left: 8.403vw;
-    margin-top: 12.040vw;
-    font-family: Roboto Slab;
-    line-height: 101.38%;
+#seventh .secondh2 {
+  width: 25.347vw;
+  height: 6.458vw;
+  font-size: 3.819vw;
+  font-weight: bolder;
+  margin-left: 8.403vw;
+  margin-top: 12.04vw;
+  font-family: Roboto Slab;
+  line-height: 101.38%;
 }
-.secondmiddle{
-    display: flex;
+.secondmiddle {
+  display: flex;
 }
 .secondleft {
   width: 45.972vw;
@@ -48,121 +48,123 @@
   display: flex;
   position: relative;
 }
-.secondend .secondendleft img{
-    width: 16.111vw;
-    height: 14.097vw;
-    margin-left: 8.403vw;
-    margin-top: 6.528vw;
+.secondend .secondendleft img {
+  width: 16.111vw;
+  height: 14.097vw;
+  margin-left: 8.403vw;
+  margin-top: 6.528vw;
 }
-.secondend .secondendleft .secondendellipse{
-    position: absolute;
-    width: 13.125vw;
-    height: 2.222vw;
-    left: 10.694vw;
-    top: 19.511vw;
-    border-radius: 50%;
-    background-color: #efefef;
-    z-index: -55;
+.secondend .secondendleft .secondendellipse {
+  position: absolute;
+  width: 13.125vw;
+  height: 2.222vw;
+  left: 10.694vw;
+  top: 19.511vw;
+  border-radius: 50%;
+  background-color: #efefef;
+  z-index: -55;
 }
-.secondendright{
-    display: flex;
-    margin-left: 9.167vw;
-    margin-top: 11.389vw;
+.secondendright {
+  display: flex;
+  margin-left: 9.167vw;
+  margin-top: 11.389vw;
 }
-.secondbox1{
-    width: 10.417vw;
-    height: 5.4861vw;
+.secondbox1 {
+  width: 10.417vw;
+  height: 5.4861vw;
 }
-.secondbox2{
-    margin-left: 6.5972vw;
-    width: 10.417vw;
-    height: 5.4861vw;
+.secondbox2 {
+  margin-left: 6.5972vw;
+  width: 10.417vw;
+  height: 5.4861vw;
 }
-.secondbox3{
-    margin-left: 6.4583vw;
-    width: 10.417vw;
-    height: 5.4861vw;
+.secondbox3 {
+  margin-left: 6.4583vw;
+  width: 10.417vw;
+  height: 5.4861vw;
 }
-#seventh .secondend h3{
-    font-weight: bold;
-    font-size: 1.7361vw;
-    margin-bottom: 0.0694vw;
-    line-height: 130%;
-    width: 10.417vw;
-    height: 2.7083vw;
+#seventh .secondend h3 {
+  font-weight: bold;
+  font-size: 1.7361vw;
+  margin-bottom: 0.0694vw;
+  line-height: 130%;
+  width: 10.417vw;
+  height: 2.7083vw;
 }
-#seventh .secondend p{
-    font-size: 1.25vw;
-    line-height: 130%;
+#seventh .secondend p {
+  font-size: 1.25vw;
+  line-height: 130%;
 }
 
 /* MOBILE */
-@media only screen and (min-width: 320px) and (max-width: 991px){
-    .secondmiddle {
-        flex-direction: column;
-    }
-    .secondend{
-        flex-wrap: wrap;
-    }
-    .secondend .secondendleft img, .secondend .secondendleft .secondendellipse{
-        display: none;
-    }
-    #seventh .secondh2{
-        width: 45.355vw;
-        height: 11.557vw;
-        font-size: 6.933vw;
-    }
-    .secondleft{
-        width: 82.259vw;
-        height: 46.472vw;
-        font-size: 3.200vw;
-        margin-right: 8.141vw;
-        margin-left: 9.600vw;
-    }
-    .secondright{
-        position: relative;
-    }
-    .secondright img{
-        width:39.019vw ;
-        height: 39.141vw;
-        margin-top: 14.933vw;
-        margin-left: 30.165vw;
-    }
-    .secondellipse{
-        position: absolute;
-        width: 45.48vw;
-        height: 7.3307vw;
-        top: 50.349vw;
-        left: 26.933vw;
-    }
-    .secondendright{
-        width: 54.992vw;
-        margin-top: 12.189vw;
-    }
-    .secondbox1{
-        width: 22.93vw;
-        height: 9.87vw;
-    }
-    .secondbox2{
-        margin-left: 8.7vw;
-        width: 23.216vw;
-        height: 9.8587vw;
-    }
-    .secondbox3{
-        width: 20.27vw;
-        height: 9.87vw;
-        margin-top: 9.067vw;
-        margin-left: 0 ;
-    }
-    #seventh .secondend h3{
-        font-weight: bold;
-        font-size: 3.2vw;
-        margin-bottom: 0.2213vw;
-        width: 18.64vw;
-        height: 4.8453vw;
-    }
-    #seventh .secondend p{
-        font-size: 2.7vw;
-    }
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .secondmiddle {
+    flex-direction: column;
+  }
+  .secondend {
+    flex-wrap: wrap;
+  }
+  .secondend .secondendleft img,
+  .secondend .secondendleft .secondendellipse {
+    display: none;
+  }
+  #seventh .secondh2 {
+    width: 45.355vw;
+    height: 11.557vw;
+    font-size: 6.933vw;
+  }
+  .secondleft {
+    width: 82.259vw;
+    height: 46.472vw;
+    font-size: 3.2vw;
+    margin-right: 8.141vw;
+    margin-left: 9.6vw;
+  }
+  .secondright {
+    position: relative;
+  }
+  .secondright img {
+    width: 39.019vw;
+    height: 39.141vw;
+    margin-top: 14.933vw;
+    margin-left: 30.165vw;
+  }
+  .secondellipse {
+    position: absolute;
+    width: 45.48vw;
+    height: 7.3307vw;
+    top: 50.349vw;
+    left: 26.933vw;
+  }
+  .secondendright {
+    flex-wrap: wrap;
+    width: 54.992vw;
+    margin-top: 12.189vw;
+  }
+  .secondbox1 {
+    width: 22.93vw;
+    height: 9.87vw;
+  }
+  .secondbox2 {
+    margin-left: 8.7vw;
+    width: 23.216vw;
+    height: 9.8587vw;
+  }
+  .secondbox3 {
+    width: 20.27vw;
+    height: 9.87vw;
+    margin-top: 9.067vw;
+    margin-left: 0vw;
+    margin-right: 70.4vw;
+  }
+  #seventh .secondend h3 {
+    font-weight: bold;
+    font-size: 3.2vw;
+    margin-bottom: 0.2213vw;
+    width: 18.64vw;
+    height: 4.8453vw;
+  }
+  #seventh .secondend p {
+    font-size: 2.7vw;
+  }
 }
-
