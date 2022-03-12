@@ -1,3 +1,4 @@
+
 .secondh2{
     font-family: Roboto Slab;
 }
@@ -17,35 +18,35 @@
 .secondmiddle{
     display: flex;
 }
-.secondleft{
-    width: 45.972vw;
-    height: 25.972vw;
-    font-size: 1.667vw;
-    margin-left: 8.403vw;
-    line-height: 150%;
+.secondleft {
+  width: 45.972vw;
+  height: 25.972vw;
+  font-size: 1.667vw;
+  margin-left: 8.403vw;
+  line-height: 150%;
 }
-.secondright{
-    position: relative;
+.secondright {
+  position: relative;
 }
-.secondright img{
-    width:21.806vw ;
-    height: 21.875vw;
-    margin-left: 13.194vw;
-    margin-top: 2.347vw;
+.secondright img {
+  width: 21.806vw;
+  height: 21.875vw;
+  margin-left: 13.194vw;
+  margin-top: 2.347vw;
 }
-.secondellipse{
-    position: absolute;
-    width: 25.417vw;
-    height: 4.097vw;
-    left: 11.389vw;
-    top: 22.314vw;
-    border-radius: 50%;
-    background: #EFEFEF;
-    z-index: -999;
+.secondellipse {
+  position: absolute;
+  width: 25.417vw;
+  height: 4.097vw;
+  left: 11.389vw;
+  top: 22.314vw;
+  border-radius: 50%;
+  background: #efefef;
+  z-index: -999;
 }
-.secondend{
-    display: flex;
-    position: relative;
+.secondend {
+  display: flex;
+  position: relative;
 }
 .secondend .secondendleft img{
     width: 16.111vw;
@@ -164,3 +165,4 @@
         font-size: 2.7vw;
     }
 }
+
