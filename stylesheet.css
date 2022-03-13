@@ -611,7 +611,7 @@
 .fourth-text {
   /* width: 48.611vw;
     height: 14.097vw; */
-  width: 48.571vw;
+  width: 48.611vw;
   height: 14.057vw;
   font-size: 1.389vw;
   font-weight: 400;
@@ -876,6 +876,10 @@
   letter-spacing: 0em;
   text-align: left;
   font-family: "Roboto", sans-serif;
+}
+
+#fifth-last-p {
+  width: 20.417vw;
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
