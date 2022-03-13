@@ -13,10 +13,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
-body {
+.container {
   width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* rahid css */
@@ -79,7 +84,7 @@ body {
   height: 2.708vw;
 }
 .one-first-p {
-  width: 15.5vw;
+  width: 15.486vw;
   height: 2.708vw;
 }
 .one-second-p {
@@ -123,10 +128,14 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
-  body {
+  .container {
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+
   .second-head {
     width: 46.318vw;
     height: 6.458vw;
@@ -199,6 +208,14 @@ body {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .second-head {
     width: 82.88vw;
     height: 11.557vw;
@@ -385,9 +402,12 @@ body {
   }
   */
 
-  body {
+  .container {
     width: 100%;
-    overflow-x: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   #third-block-h {
@@ -473,13 +493,16 @@ body {
 /*MOBILE*/
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
-  body {
+  .container {
     width: 100%;
-    overflow-x: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   #third-block-h {
-    width: 112.453vw /*421.7px*/;
+    width: 85vw /*421.7px*/;
     height: 11.557vw /*43.34px*/;
     font-family: Roboto Slab;
     font-style: normal;
@@ -490,17 +513,17 @@ body {
   }
 
   #third-blocks-all {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     /* margin: 9.509vw 24.821vw 12.576vw 12.576vw 35.66px 93.08px 47.16px 95px; */
     width: 49.845vw; /*186.92px*/
     height: 371.157vw; /*1391.84px*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-
-  .third-block {
-    margin-bottom: 6.443vw; /*24.16px*/
+    /* margin-left: 25.333vw; */
+    /* margin-right: 25.088vw; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #third-block-one {
@@ -515,11 +538,12 @@ body {
     /* border: 1px solid red; */
     width: 49.579vw /*185.92px*/;
     height: 40.757vw /*152.84px*/;
-    margin-left: 25.333vw /* 95px */;
-    margin-right: 25.088vw /* 94.08 */;
+    margin-left: 0; /* 95px */
+    /* margin-right: 25.088vw  94.08 */
     box-shadow: 0.124vw 0.124vw 1.864vw /*0.465972px 0.465972px 6.98958px*/
       rgba(0, 0, 0, 0.25);
     border-radius: 3.728vw /*13.9792px*/;
+    margin-bottom: 6.443vw;
   }
 
   .third-p-names {
@@ -595,7 +619,7 @@ body {
 }
 .fourth-image1 {
   width: 13.194vw;
-  height: 11.736vw;
+  /* height: 11.736vw; */
   margin-right: 2.083vw;
   padding-bottom: 2.014vw;
 }
@@ -623,6 +647,14 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #fourth {
     background-color: #efefef;
     padding: 6.319vw 22.986vw 7.709vw 8.749vw;
@@ -675,7 +707,7 @@ body {
   }
   .fourth-image1 {
     width: 13.194vw;
-    height: 11.736vw;
+    /* height: 11.736vw; */
     margin-top: 0.694vw;
   }
   .fourth-items {
@@ -684,6 +716,14 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #fourth {
     padding: 11.17vw 8.511vw 14.096vw 9.574vw;
     background-color: #efefef;
@@ -723,7 +763,7 @@ body {
 
   .fourth-image1 {
     width: 21.277vw;
-    height: 22.34vw;
+    /* height: 22.34vw; */
   }
   .fourth-image2 {
     width: 3.965vw;
@@ -839,6 +879,14 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #fifth {
     padding-top: 10.433vw;
     padding-left: 8.465vw;
@@ -848,6 +896,14 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #fifth {
     padding-top: 19.375vw;
     padding-left: 9.067vw;
@@ -998,6 +1054,14 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /*.container {
         
         width: 100%;
@@ -1006,6 +1070,14 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   /*.container {
         width: 100%;
         height: auto;

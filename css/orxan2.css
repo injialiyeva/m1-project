@@ -1,3 +1,11 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .secondh2 {
   font-family: Roboto Slab;
 }
@@ -98,6 +106,14 @@
 
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .secondmiddle {
     flex-direction: column;
   }
