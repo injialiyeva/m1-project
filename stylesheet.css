@@ -509,7 +509,7 @@
     font-weight: bold;
     font-size: 6.933vw /*26px*/;
     line-height: 101.38%;
-    margin: 22.667vw 21.52vw 9.509vw 9.067vw /*85px 80.7px 35.66px 34px*/;
+    margin: 28.667vw 21.52vw 9.509vw 9.067vw /*85px 80.7px 35.66px 34px*/;
   }
 
   #third-blocks-all {
@@ -780,6 +780,8 @@
   }
 }
 
+/* FIFTH */
+
 #fifth {
   height: auto;
   width: 100%;
@@ -961,10 +963,19 @@
   }
 
   .bb .pb {
-    height: 11.875vw;
+    height: 10.133vw;
     width: 37.333vw;
     margin-top: 1.563vw;
     font-size: 2.667vw;
+  }
+
+  #fifth-last-p {
+    width: 37.333vw;
+    height: 10.133vw;
+  }
+
+  #fifth-span {
+    margin-right: 35px;
   }
 }
 
