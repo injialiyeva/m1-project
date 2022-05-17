@@ -4,7 +4,5 @@ Algoritmika BootCamp 2022 - Veb Tərtibatçılıq - Modul 1. Layihə "Kurs səhi
 
 Tapşırıq: “Filmi necə izləmək olar” kursunun satış səhifəsini nümunəyə uyğun tərtib etmək.
 
-Nəticə:
-
-
+Netlify link: [https://injialiyeva-web-page-task.netlify.app/](https://web-page-task.netlify.app/)
 
