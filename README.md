@@ -6,7 +6,10 @@
 - User stories: 
     -  
 
-
+- Stack: 
+    - HTML
+    - CSS
+    - Figma
 
 
 - [Link Preview](https://web-page-task.netlify.app/)
